@@ -696,17 +696,8 @@ button { cursor: none; border: none; background: none; }
 }
 
 .badge i {
-  color: var(--pink);
+  color: var(--accent);
 }
-  font-size: 0.78rem;
-  font-weight: 600;
-  white-space: nowrap;
-  z-index: 3;
-  backdrop-filter: blur(10px);
-  animation: float 4s ease-in-out infinite;
-}
-
-.badge i { color: var(--accent); }
 
 .badge-1 { bottom: 20px; left: -30px; animation-delay: 0s; }
 .badge-2 { top: 30px; right: -20px; animation-delay: 2s; }
@@ -1101,8 +1092,6 @@ button { cursor: none; border: none; background: none; }
 }
 
 .skill-bar-list { display: flex; flex-direction: column; gap: 20px; }
-
-.skill-bar-item {}
 
 .skill-bar-info {
   display: flex;
